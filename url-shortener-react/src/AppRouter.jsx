@@ -11,9 +11,6 @@ import DashboardLayout from "./components/Dashboard/DashboardLayout";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "./components/ErrorPage";
 
-// <PrivateRoute publicPage={true}>
-//      <RegisterPage />
-// </PrivateRoute>
 
 const AppRouter = () => {
   const hideHeaderFooter = location.pathname.startsWith("/s");
