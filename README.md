@@ -9,6 +9,7 @@ A modern URL shortening service built with React and Spring Boot.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Material-UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ## ✨ Features
 
@@ -51,6 +52,7 @@ Visit `http://localhost:5173` to see the application.
 **Frontend:**
 - React 18 + Vite
 - Material-UI + Tailwind CSS
+- Framer Motion for animations
 - React Query + Axios
 - Chart.js for analytics
 
