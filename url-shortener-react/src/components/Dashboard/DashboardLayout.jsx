@@ -10,12 +10,10 @@ import { useNavigate } from 'react-router-dom'
 import Loader from '../Loader'
 
 const DashboardLayout = () => {
-    // const refetch = false;
     const { token } = useStoreContext();
     const navigate = useNavigate();
     const [shortenPopUp, setShortenPopUp] = useState(false);
 
-    // console.log(useFetchTotalClicks(token, onError));
 
     const {isLoading, data: myShortenUrls, refetch } = useFetchMyShortUrls(token, onError)
     
